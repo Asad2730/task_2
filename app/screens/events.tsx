@@ -90,7 +90,11 @@ export default function Events() {
          
 
          <div className="flex flex-col">
-            
+         <span className="text-white">What do you think about company?</span>
+          <textarea  className="border border-y-red-100  bg-black text-left p-1"
+             cols={4}
+             placeholder="let us know what you think aout us"
+           />
          </div>
 
 
